@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [18.x, 20.x] # Chạy trên máy ảo Linux của GitHub
+        node-version: [18.x] # Chạy trên máy ảo Linux của GitHub
 
     steps:
     - name: Checkout code
@@ -24,7 +24,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-        cache-dependency-path: 'School Bus/package-lock.json'
+        cache-dependency-path: 'School Bus/package.json'
 
     - name: Install Dependencies
       working-directory: ./School Bus
