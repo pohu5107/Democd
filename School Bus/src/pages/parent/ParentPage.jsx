@@ -43,13 +43,6 @@ const pickupIcon = new L.Icon({
   popupAnchor: [0, -35],
 });
 
-// const pickupIcon = new L.Icon({
-//   // Hình cột biển báo xe buýt
-//   iconUrl: 'https://cdn-icons-png.flaticon.com/512/3448/3448339.png',
-//   iconSize: [35, 35],
-//   iconAnchor: [17, 35],
-//   popupAnchor: [0, -35],
-// });
 
 /// --- DATA ---
 
