@@ -69,7 +69,7 @@ const busInfo = {
 const mockStops = [
   {
     id: 1,
-    name: "Nhà Văn hóa Thanh Niên",
+    name: "Trần Hưng Đạo",
     time: "06:00",
     lat: 10.75875,
     lng: 106.68095,
