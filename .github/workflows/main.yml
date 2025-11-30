@@ -1,6 +1,5 @@
 name: CI for SSB 1.0 (Node.js & React)
 
-
 on:
   push:
     branches: [ "main" ]
