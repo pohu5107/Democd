@@ -24,10 +24,16 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+        cache-dependency-path: 'School Bus/package-lock.json'
 
     - name: Install Dependencies
+      working-directory: ./School Bus
       run: npm install
 
+    - name: Run Tests
+      working-directory: ./School Bus
+      run: npm test --if-present
 
     - name: Build Project
-      run: npm run build 
+      working-directory: ./School Bus
+      run: npm run build --if-present
