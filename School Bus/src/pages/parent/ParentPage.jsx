@@ -7,7 +7,7 @@ import { notificationsService } from '../../services/notificationsService.js';
 import { AlertTriangle } from 'lucide-react';
 import iconUrl from 'leaflet/dist/images/marker-icon.png';
 import iconShadow from 'leaflet/dist/images/marker-shadow.png';
-@@@@@@@@@@@@@@@@@@@@@@@@
+
 // Simple MapPin SVG Icon component
 const MapPin = ({ className }) => (
   <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24">
