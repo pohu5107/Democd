@@ -47,7 +47,7 @@ const pickupIcon = new L.Icon({
 /// --- DATA ---
 
 const studentInfo = {
-  name: 'Lâm Xuân Mai',
+  name: 'Lâm Xuân Hồng',
   class: '7A1',
 };
 
